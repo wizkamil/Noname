@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+}
+ul, li {
+    list-style: none;
+}
+p, a {
+    text-decoration: none;
+}
+.first {
+    margin-bottom: 50px !important;
+}
+
+/* .slick-dots li button {
+    position: absolute;
+    left: -558px;
+    bottom: 6px;
+    width: 75px;
+    background-color: #000;
+    z-index: 3;
+    height: 75px;
+} */
+
+.bottom:hover::before{
+    
+        
+        content: "sale 24%";
+        position: absolute;
+        bottom: 120px;
+        color: #fff;
+        background-color: red;
+        padding: 12px 24px;
+        cursor: pointer;
+        font-size: 20px;
+    
+    
+}
+
+.top:hover::before{
+    
+        
+    content: "sale 24%";
+    position: absolute;
+    bottom: 320px;
+    color: #fff;
+    background-color: red;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 20px;
+
+
+}
